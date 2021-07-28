@@ -31,6 +31,6 @@ public class RecklessnessCurse extends Enchantment {
         return false;
     }
 
-    public boolean canAccept(Enchantment other) { return super.canAccept(other) && (other != EnchantmentRegistry.FORGING_TOUCH || other != Enchantments.FORTUNE); }
+    public boolean canAccept(Enchantment other) { return super.canAccept(other) && (other != Enchantments.FORTUNE); }
 
 }
